@@ -1,0 +1,300 @@
+body {
+    font-family: 'IBM Plex Mono';
+    width: 1400px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #F5F5F5;
+}
+.site-header {
+    position: relative;
+    height: 765px;
+    background-image: linear-gradient(180deg, 
+    rgba(0, 0, 0, 0.00) 0%,
+    rgba(0, 0, 0, 0.50) 100%),
+    url('../resources/SashaFoto.png');
+    background-repeat: no-repeat;
+    background-position: 50% 42%;
+    background-size: cover;
+}
+
+.logo {
+    width: 130px;
+    height: 39px;
+    margin-top: 36px;
+    margin-left: 123px;
+    position: absolute;
+    background-image: url(../resources/logofon.png);
+}
+
+.logo__text {
+    left: 9px;
+    bottom: 9px;
+    position: relative;
+    color: #1BFF07;
+    font-size: 42.414px;
+    font-weight: 700;
+    letter-spacing: -4.666px;
+    text-transform: uppercase;
+}
+
+.nav {
+    float: right;
+    margin-top: 33px;
+    margin-right: 74px;
+}
+
+.nav__link {
+    margin-right: 50px;
+    color: #FFF;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    text-transform: lowercase;
+}
+
+.nav__link:hover {
+    color: #1BFF07;
+}
+
+.aboutSasha__work {
+    position: absolute;
+    left: 125px;
+    top: 334px;
+    width: 430px;
+    height: 103px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.aboutSasha__info {
+    position: absolute;
+    left: 119px;
+    top: 466px;
+    width: 919px;
+    height: 205px;
+    flex-shrink: 0;
+    color: #1BFF07;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -2.4px;
+}
+
+.section-black {
+    width: 1400px;
+    height: 6888px;
+    background-color: #000;
+}
+
+h2#freshprojects {
+    padding-top: 150px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    color: #FFF;
+    font-size: 55px;
+    letter-spacing: -1.65px;
+}
+
+.project_img {
+    display: inline-block;
+    position: absolute;
+    margin-left: 125px;
+    width: 1150px;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_name {
+    display: inline-block;
+    position: relative;
+    padding-top: 410px;
+    margin-left: 175px;
+    color: #FFF;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+    text-align: left;
+}
+
+.project_inf {
+    display: block;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 175px;
+    margin-bottom: 50px;
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    text-align: left;
+}
+
+a.btn {
+    display: inline-block;
+    width: 582px;
+    height: 153px;
+    padding: 56px 86px;
+    text-align: center;
+    color: #000;
+    background-color: #1BFF07;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    color: #1BFF07;
+    border: 1px solid #1BFF07;
+    background-color: #000;;
+}
+
+h2#MyCompetencies {
+    padding-top: 70px;
+    margin-left: 123px;
+    color: #FFF;
+    font-size: 55px;
+    letter-spacing: -1.65px;
+}
+
+.competence_img {
+    margin-top: 54px;
+    margin-left: 125px;
+    width: 45px;
+    height: 44px;
+}
+
+.competence_name {
+    width: 778px;
+    margin-top: 10px;
+    margin-left: 123px;
+    color: #1BFF07;
+    font-size: 35px;
+    hyphens: auto;
+    letter-spacing: -1.05px;
+}
+
+.competence_inf {
+    width: 778px;
+    margin-top: 15px;
+    margin-left: 123px;
+    color: #FFF;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+}
+
+h2#MyHelp {
+    width: 403px;
+    margin-top: 175px;
+    margin-left: 125px;
+    color: #FFF;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+}
+
+.myhelp_img {
+    width: 1150px;
+    height: 200px;
+    margin-top: 74px;
+    margin-left: 125px;
+}
+.devmobil {
+    margin-top: 60px;
+}
+
+.box {
+    width: 1150px;
+    height: 283px;
+    margin-left: 125px;
+    background-image: url(../resources/Blackfon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.myhelp_name {
+    width: 1048px;
+    padding-top: 40px;
+    margin-left: 40px;
+    color: #1BFF07;
+    font-size: 55px;
+    letter-spacing: -1.65px;
+}
+
+.myhelp_inf {
+    width: 749px;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #FFF;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+}
+
+.contacts {
+    width: 1400px;
+    height: 717px;
+    margin-top: 150px;
+    background-image: url(../resources/Contacts.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2#contacts {
+    color: #FFF;
+    padding-top: 322px;
+    margin-bottom: 28px;
+    margin-left: 125px;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: -1.05px;
+}
+
+.contacts p {
+    margin-top: 20px;
+}
+
+.contacts__connec {
+    color: #FFF;
+    margin-left: 125px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1BFF07;
+}
+
+.section-white {
+    width: 1400px;
+    height: 289px;
+    margin-top: 145px;
+    background-image: url(../resources/Footer_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-white h2 p {
+    color: #000;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-white h2 {
+    padding-top: 76px;
+    margin-left: 125px;
+    font-size: 22px;
+    letter-spacing: -1.61px;
+}
+
+.section-white p {
+    margin-top: 66px;
+    margin-left: 125px;
+    font-size: 20px;
+    letter-spacing: -1.99px;
+    opacity: 0.5;
+}
