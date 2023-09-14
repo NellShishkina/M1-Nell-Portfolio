@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'IBM Plex Mono';
-    width: 1400px;
+    min-width: 1400px;
+    margin: 0 auto;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -12,9 +17,9 @@ body {
     background-image: linear-gradient(180deg, 
     rgba(0, 0, 0, 0.00) 0%,
     rgba(0, 0, 0, 0.50) 100%),
-    url('../resources/SashaFoto.png');
+    url('../resources/Nellfoto.JPG');
     background-repeat: no-repeat;
-    background-position: 50% 42%;
+    background-position: 80% 25%;
     background-size: cover;
 }
 
@@ -28,11 +33,11 @@ body {
 }
 
 .logo__text {
-    left: 9px;
-    bottom: 9px;
+    left: 5px;
+    bottom: 5px;
     position: relative;
-    color: #1BFF07;
-    font-size: 42.414px;
+    color: #ff07ee;
+    font-size: 36px;
     font-weight: 700;
     letter-spacing: -4.666px;
     text-transform: uppercase;
@@ -46,7 +51,7 @@ body {
 
 .nav__link {
     margin-right: 50px;
-    color: #FFF;
+    color: #000000;
     font-size: 18px;
     letter-spacing: -0.54px;
     text-transform: lowercase;
@@ -63,7 +68,7 @@ body {
     width: 430px;
     height: 103px;
     flex-shrink: 0;
-    color: #FFF;
+    color: #00fb1d;
     font-size: 20px;
     line-height: normal;
     letter-spacing: -0.6px;
@@ -76,14 +81,14 @@ body {
     width: 919px;
     height: 205px;
     flex-shrink: 0;
-    color: #1BFF07;
+    color: #ff07ee;
     font-size: 80px;
     line-height: 70px;
     letter-spacing: -2.4px;
 }
 
 .section-black {
-    width: 1400px;
+    min-width: 1400px;
     height: 6888px;
     background-color: #000;
 }
@@ -98,7 +103,7 @@ h2#freshprojects {
 }
 
 .project_img {
-    display: inline-block;
+    display: block;
     position: absolute;
     margin-left: 125px;
     width: 1150px;
@@ -108,7 +113,7 @@ h2#freshprojects {
 }
 
 .project_name {
-    display: inline-block;
+    display: block;
     position: relative;
     padding-top: 410px;
     margin-left: 175px;
@@ -119,7 +124,7 @@ h2#freshprojects {
 }
 
 .project_inf {
-    display: block;
+    display: inline-block;
     position: relative;
     margin-top: 5px;
     margin-left: 175px;
@@ -131,11 +136,10 @@ h2#freshprojects {
 }
 
 a.btn {
-    display: inline-block;
+    display: flex;
     width: 582px;
     height: 153px;
     padding: 56px 86px;
-    text-align: center;
     color: #000;
     background-color: #1BFF07;
     text-align: center;
@@ -210,7 +214,7 @@ h2#MyHelp {
     height: 283px;
     margin-left: 125px;
     background-image: url(../resources/Blackfon.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -233,12 +237,19 @@ h2#MyHelp {
 }
 
 .contacts {
-    width: 1400px;
+    min-width: 1400px;
     height: 717px;
     margin-top: 150px;
-    background-image: url(../resources/Contacts.png);
-    background-size: contain;
+    border-radius: 30px;
+    background: #191C19;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts img {
+    float: right;
+    border-radius: 30px;
 }
 
 h2#contacts {
@@ -269,12 +280,14 @@ a:hover {
 }
 
 .section-white {
-    width: 1400px;
-    height: 289px;
+    min-width: 1400px;
+    height: 223px;
     margin-top: 145px;
-    background-image: url(../resources/Footer_back.png);
-    background-size: contain;
+    background: #FFF;
+    border-radius: 30px 30px 0 0;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section-white h2 p {
