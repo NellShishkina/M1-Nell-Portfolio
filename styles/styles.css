@@ -44,6 +44,7 @@ body {
 }
 
 .nav {
+    display: flex;
     float: right;
     margin-top: 33px;
     margin-right: 74px;
@@ -61,7 +62,7 @@ body {
     color: #1BFF07;
 }
 
-.aboutSasha__work {
+.aboutsasha__work {
     position: absolute;
     left: 125px;
     top: 334px;
@@ -74,7 +75,7 @@ body {
     letter-spacing: -0.6px;
 }
 
-.aboutSasha__info {
+.aboutsasha__info {
     position: absolute;
     left: 119px;
     top: 466px;
@@ -102,7 +103,7 @@ h2#freshprojects {
     letter-spacing: -1.65px;
 }
 
-.project_img {
+.project__img {
     display: block;
     position: absolute;
     margin-left: 125px;
@@ -112,7 +113,7 @@ h2#freshprojects {
     background-repeat: no-repeat;
 }
 
-.project_name {
+.project__name {
     display: block;
     position: relative;
     padding-top: 410px;
@@ -123,7 +124,7 @@ h2#freshprojects {
     text-align: left;
 }
 
-.project_inf {
+.project__inf {
     display: inline-block;
     position: relative;
     margin-top: 5px;
@@ -137,6 +138,7 @@ h2#freshprojects {
 
 a.btn {
     display: flex;
+    justify-content: center;
     width: 582px;
     height: 153px;
     padding: 56px 86px;
@@ -156,7 +158,7 @@ a.btn {
     background-color: #000;;
 }
 
-h2#MyCompetencies {
+h2#mycompetencies {
     padding-top: 70px;
     margin-left: 123px;
     color: #FFF;
@@ -164,14 +166,14 @@ h2#MyCompetencies {
     letter-spacing: -1.65px;
 }
 
-.competence_img {
+.competence__img {
     margin-top: 54px;
     margin-left: 125px;
     width: 45px;
     height: 44px;
 }
 
-.competence_name {
+.competence__name {
     width: 778px;
     margin-top: 10px;
     margin-left: 123px;
@@ -181,7 +183,7 @@ h2#MyCompetencies {
     letter-spacing: -1.05px;
 }
 
-.competence_inf {
+.competence__inf {
     width: 778px;
     margin-top: 15px;
     margin-left: 123px;
@@ -190,7 +192,7 @@ h2#MyCompetencies {
     letter-spacing: -0.66px;
 }
 
-h2#MyHelp {
+h2#myhelp {
     width: 403px;
     margin-top: 175px;
     margin-left: 125px;
@@ -199,7 +201,7 @@ h2#MyHelp {
     letter-spacing: -1.05px;
 }
 
-.myhelp_img {
+.myhelp__img {
     width: 1150px;
     height: 200px;
     margin-top: 74px;
@@ -218,7 +220,7 @@ h2#MyHelp {
     background-repeat: no-repeat;
 }
 
-.myhelp_name {
+.myhelp__name {
     width: 1048px;
     padding-top: 40px;
     margin-left: 40px;
@@ -227,7 +229,7 @@ h2#MyHelp {
     letter-spacing: -1.65px;
 }
 
-.myhelp_inf {
+.myhelp__inf {
     width: 749px;
     margin-top: 15px;
     margin-left: 40px;
